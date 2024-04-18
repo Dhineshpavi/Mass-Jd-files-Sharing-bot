@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "20239261"))
 API_HASH = os.environ.get("API_HASH", "af61dab399ed3220a3a81570b56bd29d")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "1002066420558"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002066420558"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "1357978966"))
@@ -32,7 +32,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Aloneboy:Aloneboytg@clust
 DB_NAME = os.environ.get("DATABASE_NAME", "DP_BOTZ")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001563756786"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001828719686"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
